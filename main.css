@@ -23,3 +23,28 @@ img{
         margin-left: -100%;
     }
 }
+@media (max-width:600px){
+    body{
+        background-size: cover;
+        background-image: url(1666273553_19-mykaleidoscope-ru-p-krasivie-lyubovnie-otkritki-krasivo-20.jpg);
+    
+    }
+    .conatiner{
+        width: 100%;
+        height: 40vh;
+        font-size: 30px;
+        overflow: hidden;
+        margin-top: 30vh;
+        margin-left: 100%;
+        animation-name: shaxlo;
+        animation-iteration-count: infinite;
+        animation-duration: 20s;
+    }
+    img{
+        width: 10%;
+        height: 10%;
+        border-radius: 50%;
+    }
+
+} 
+    
